@@ -11,6 +11,7 @@
 #include <thrust/functional.h>
 #include <thrust/reduce.h>
 #include <thrust/inner_product.h>
+#include <algorithm>
 
 #ifndef DIVUP
 #define DIVUP(x, y) (((x) + (y) - 1) / (y))
